@@ -1,4 +1,4 @@
-from creational.builder.house.house_builder import HouseBuilder
+from creational.builder_method.house.house_builder import HouseBuilder
 
 
 class HouseBoatDirector:

@@ -12,7 +12,7 @@ def client_code(logistics: Logistics) -> None:
           f"{logistics.some_operation()}", end="")
 
 
-if __name__ == "__main__":
+def main_factory_method_transportation_example():
     client_code(LandLogistics())
     print("\n")
     client_code(SeaLogistics())

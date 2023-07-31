@@ -1,7 +1,7 @@
-from creational.builder.house.directors import IglooDirector, CastleDirector, HouseBoatDirector
+from creational.builder_method.house.directors import IglooDirector, CastleDirector, HouseBoatDirector
 
 
-if __name__ == "__main__":
+def main_builder_method():
     IGLOO = IglooDirector.construct()
     CASTLE = CastleDirector.construct()
     HOUSEBOAT = HouseBoatDirector.construct()
