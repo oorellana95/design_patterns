@@ -3,6 +3,9 @@ from creational.builder.main import main_builder
 from creational.factory_method.serializers_example.main import main_factory_method_serializers_example
 from creational.factory_method.transportation_example.main import main_factory_method_transportation_example
 from creational.prototype.main import main_prototype
+from creational.singleton.game_example.main import main_singleton_game_example
+from creational.singleton.logging.main import main_logging_example
+from creational.singleton.main_singleton_concept import main_singleton_concept
 
 
 def execute_creational_design_patterns():
@@ -10,7 +13,10 @@ def execute_creational_design_patterns():
     # main_builder()
     # main_factory_method_serializers_example()
     # main_factory_method_transportation_example()
-    main_prototype()
+    # main_prototype()
+    # main_singleton_concept()
+    # main_singleton_game_example()
+    main_logging_example()
 
 
 if __name__ == '__main__':
