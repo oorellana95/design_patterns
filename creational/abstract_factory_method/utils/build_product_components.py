@@ -1,4 +1,4 @@
-from creational.abstract_factory_method.factories.AbstractFactory import AbstractFactory
+from creational.abstract_factory_method.factories.abstract_factory import AbstractFactory
 
 
 def build_product_components(factory: AbstractFactory):

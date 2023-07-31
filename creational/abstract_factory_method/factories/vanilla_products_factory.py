@@ -1,4 +1,4 @@
-from creational.abstract_factory_method.factories.AbstractFactory import AbstractFactory
+from creational.abstract_factory_method.factories.abstract_factory import AbstractFactory
 from creational.abstract_factory_method.concrete_products.vanilla import VanillaBrowser, VanillaMessenger
 
 

@@ -1,4 +1,4 @@
-from creational.factory_method.transportation_example.Logistics import Logistics, LandLogistics, SeaLogistics
+from creational.factory_method.transportation_example.logistics import Logistics, LandLogistics, SeaLogistics
 
 
 def client_code(logistics: Logistics) -> None:

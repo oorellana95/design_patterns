@@ -1,4 +1,4 @@
-from creational.abstract_factory_method.abstract_products.Messenger import Messenger
+from creational.abstract_factory_method.abstract_products.messenger import Messenger
 
 
 class VanillaMessenger(Messenger):

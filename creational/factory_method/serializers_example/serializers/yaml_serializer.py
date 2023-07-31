@@ -1,5 +1,5 @@
 import yaml
-from creational.factory_method.serializers_example.serializers.JsonSerializer import JsonSerializer
+from creational.factory_method.serializers_example.serializers.json_serializer import JsonSerializer
 
 
 class YamlSerializer(JsonSerializer):

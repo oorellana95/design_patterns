@@ -1,5 +1,5 @@
 import json
-from creational.factory_method.serializers_example.serializers.Serializer import Serializer
+from creational.factory_method.serializers_example.serializers.serializer import Serializer
 
 
 class JsonSerializer(Serializer):

@@ -1,4 +1,4 @@
-from creational.factory_method.serializers_example.serializers.Serializer import Serializer
+from creational.factory_method.serializers_example.serializers.serializer import Serializer
 import xml.etree.ElementTree as et
 
 

@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-from creational.factory_method.transportation_example.Transport import Transport, Train, Boat
+from creational.factory_method.transportation_example.transport import Transport, Train, Boat
 
 
 class Logistics(ABC):

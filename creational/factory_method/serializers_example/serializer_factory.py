@@ -1,6 +1,6 @@
-from creational.factory_method.serializers_example.serializers.JsonSerializer import JsonSerializer
-from creational.factory_method.serializers_example.serializers.XmlSerializer import XmlSerializer
-from creational.factory_method.serializers_example.serializers.YamlSerializer import YamlSerializer
+from creational.factory_method.serializers_example.serializers.json_serializer import JsonSerializer
+from creational.factory_method.serializers_example.serializers.xml_serializer import XmlSerializer
+from creational.factory_method.serializers_example.serializers.yaml_serializer import YamlSerializer
 
 
 class SerializerFactory:

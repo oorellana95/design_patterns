@@ -1,4 +1,4 @@
-from creational.abstract_factory_method.concrete_products.vanilla.VanillaBrowser import VanillaBrowser
-from creational.abstract_factory_method.concrete_products.vanilla.VanillaMessenger import VanillaMessenger
+from creational.abstract_factory_method.concrete_products.vanilla.vanilla_browser import VanillaBrowser
+from creational.abstract_factory_method.concrete_products.vanilla.vanilla_messenger import VanillaMessenger
 
 __all__ = ['VanillaBrowser', 'VanillaMessenger']
