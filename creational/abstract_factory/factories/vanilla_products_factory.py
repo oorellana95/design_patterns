@@ -1,5 +1,5 @@
-from creational.abstract_factory_method.factories.abstract_factory import AbstractFactory
-from creational.abstract_factory_method.concrete_products.vanilla import VanillaBrowser, VanillaMessenger
+from creational.abstract_factory.factories.abstract_factory import AbstractFactory
+from creational.abstract_factory.concrete_products.vanilla import VanillaBrowser, VanillaMessenger
 
 
 class VanillaProductsFactory(AbstractFactory):

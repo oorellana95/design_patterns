@@ -1,6 +1,6 @@
-from creational.abstract_factory_method.concrete_products.concrete_product_types_enum import ConcreteProductTypesEnum
-from creational.abstract_factory_method.factories.secure_products_factory import SecureProductsFactory
-from creational.abstract_factory_method.factories.vanilla_products_factory import VanillaProductsFactory
+from creational.abstract_factory.concrete_products.concrete_product_types_enum import ConcreteProductTypesEnum
+from creational.abstract_factory.factories.secure_products_factory import SecureProductsFactory
+from creational.abstract_factory.factories.vanilla_products_factory import VanillaProductsFactory
 
 
 def select_factory(product_type: ConcreteProductTypesEnum):

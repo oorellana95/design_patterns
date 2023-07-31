@@ -1,5 +1,5 @@
-from creational.builder_method.house.house import House
-from creational.builder_method.house.interface_house_builder import IHouseBuilder
+from creational.builder.house.house import House
+from creational.builder.house.interface_house_builder import IHouseBuilder
 
 
 class HouseBuilder(IHouseBuilder):

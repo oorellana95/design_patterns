@@ -1,5 +1,5 @@
-from creational.abstract_factory_method.factories.abstract_factory import AbstractFactory
-from creational.abstract_factory_method.concrete_products.secure import SecureBrowser, SecureMessenger
+from creational.abstract_factory.factories.abstract_factory import AbstractFactory
+from creational.abstract_factory.concrete_products.secure import SecureBrowser, SecureMessenger
 
 
 class SecureProductsFactory(AbstractFactory):

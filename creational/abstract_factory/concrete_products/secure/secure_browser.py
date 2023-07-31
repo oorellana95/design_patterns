@@ -1,4 +1,4 @@
-from creational.abstract_factory_method.abstract_products.browser import Browser
+from creational.abstract_factory.abstract_products.browser import Browser
 
 
 class SecureBrowser(Browser):
