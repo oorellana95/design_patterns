@@ -8,6 +8,7 @@ from creational.singleton.logging.main import main_logging_example
 from creational.singleton.main_singleton_concept import main_singleton_concept
 from structural.adapter.car_example.main import main_adapter_car_example
 from structural.adapter.conceptual.main import main_adapter
+from structural.bridge.main import main_bridge
 
 
 def execute_creational_design_patterns():
@@ -22,8 +23,9 @@ def execute_creational_design_patterns():
 
 
 def execute_structural_design_patterns():
-    main_adapter_car_example()
+    #main_adapter_car_example()
     #main_adapter()
+    main_bridge()
 
 
 if __name__ == '__main__':
