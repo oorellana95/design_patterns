@@ -12,14 +12,14 @@ from structural.bridge.main import main_bridge
 
 
 def execute_creational_design_patterns():
-    main_abstract_factory()
-    main_builder()
-    main_factory_method_serializers_example()
-    main_factory_method_transportation_example()
+    #main_abstract_factory()
+    #main_builder()
+    #main_factory_method_serializers_example()
+    #main_factory_method_transportation_example()
     main_prototype()
-    main_singleton_concept()
-    main_singleton_game_example()
-    main_logging_example()
+    #main_singleton_concept()
+    #main_singleton_game_example()
+    #main_logging_example()
 
 
 def execute_structural_design_patterns():
@@ -29,4 +29,4 @@ def execute_structural_design_patterns():
 
 
 if __name__ == '__main__':
-    execute_structural_design_patterns()
+    execute_creational_design_patterns()
